@@ -1,3 +1,17 @@
 body {
     background-color: grey;
 }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section.panel {
+    background-color: lightgrey;
+}
+
+section.chunk {
+    background-color: white;
+}
