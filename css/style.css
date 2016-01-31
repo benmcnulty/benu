@@ -8,10 +8,10 @@ img {
     height: auto;
 }
 
-section.panel {
+.panel {
     background-color: lightgrey;
 }
 
-section.chunk {
+.chunk {
     background-color: white;
 }
