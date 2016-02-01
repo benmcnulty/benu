@@ -38,10 +38,11 @@ header p {
 }
 
 .chunk.main h1 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-family: 'Stint Ultra Expanded', cursive;
     text-align: center;
     margin: .5em 0;
+    overflow: hidden;
 }
 
 .chunk.main h2, .chunk.extra h1 {
@@ -105,10 +106,27 @@ header, footer {
     overflow: auto;
 }
 
+.bender {
+    height: 24em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexo {
+    height: 20em;
+}
+
+.filler {
+    width: 66%;
+    height: auto;
+}
+
 @media (min-width: 834px) {
-    #webdev, #education {
+    .bender {
         -webkit-column-break-after: always;
     }
+    
     .chunk {
         -webkit-column-break-inside: avoid;
         break-inside: avoid;
@@ -125,6 +143,7 @@ header, footer {
     #social {
         -webkit-column-span: all;
         column-span: all;
+        margin-top: 0;
     }
 }
 
