@@ -220,6 +220,10 @@ header p {
     color: rgb(245, 245, 245);
 }
 
+footer p, footer a {
+    color: rgb(13, 13, 13);
+}
+
 .chunk.main h1 {
     color: rgb(13, 13, 13);
     border-bottom: .25rem solid rgb(0, 146, 191);
@@ -244,12 +248,12 @@ header p {
 /*Style*/
 .panel {
     box-shadow: 0 0 2rem rgb(200, 200, 200), 0 0 1rem rgb(13, 13, 13) inset;    
-    border-radius: .5rem;
+    border-radius: .25rem;
 }
 
 .chunk {
     box-shadow: .25rem .25rem .5rem rgb(140, 140, 140);
-    border-radius: .25rem;
+    border-radius: .15rem;
 }
 
 header h1 {
@@ -262,6 +266,7 @@ header h2 {
 
 header p {
     font-style: italic;
+    text-shadow: 0 0 .5rem rgb(13, 13, 13);
 }
 
 .chunk.main h1 {
