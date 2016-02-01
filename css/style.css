@@ -140,6 +140,10 @@ header, footer {
     max-width: 12rem;
 }
 
+a.social {
+    padding: .5rem;
+}
+
 @media (min-width: 800px) {
     .bender {
         height: 26.5rem;
@@ -246,7 +250,9 @@ footer p, footer a {
 }
 
 a.social {
-    color: rgb(112, 219, 112);
+    background-color: rgb(112, 219, 112);
+    color: rgb(245, 245, 245);
+    border: .25rem solid rgb(140, 140, 140);
 }
 
 .slide {
@@ -284,7 +290,7 @@ header p {
     text-shadow: .25rem .25rem .5rem rgb(140, 140, 140);
 }
 
-.price, a.social {
+.price {
     text-shadow: 0 0 .15rem rgb(13, 13, 13), .15rem .15rem .25rem rgb(140, 140, 140);
 }
 
@@ -297,5 +303,8 @@ header p {
 }
 
 a.social {
+    text-shadow: 0 0 .15rem rgb(13, 13, 13), .15rem .15rem .25rem rgb(140, 140, 140);
     text-decoration: none;
+    border-radius: .75em;
+    box-shadow: .25rem 1rem 1rem rgb(200, 200, 200), .1rem .1rem 0 rgb(227, 79, 38);
 }
