@@ -4,6 +4,10 @@ html {
     font-size: 18px; /* fallback */
 }
 
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-size: 2rem; /* reset */
     line-height: 1.5;
@@ -114,7 +118,8 @@ footer p {
 
 .panel {
     overflow: auto;
-    margin: 1em .5em;
+    margin: 1em 0;
+    width: 100%;
 }
 
 
@@ -135,13 +140,13 @@ header, footer {
     max-width: 12rem;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 800px) {
     .bender {
-        height: 24rem;
+        height: 26.5rem;
         -webkit-column-break-after: always;
     }
     .flexo {
-        height: 20rem;
+        height: 25.45rem;
     }
     
     .chunk {
@@ -199,7 +204,6 @@ body {
 
 .panel {
     background-color: rgb(217, 217, 217);
-    border: .1rem solid rgba(227, 79, 38, 0);
 }
 
 .chunk {
@@ -237,8 +241,12 @@ footer p, footer a {
     color: rgb(51, 51, 51);
 }
 
-.price, a.social {
+.price {
     color: rgb(227, 79, 38);
+}
+
+a.social {
+    color: rgb(112, 219, 112);
 }
 
 .slide {
@@ -247,8 +255,7 @@ footer p, footer a {
 
 /*Style*/
 .panel {
-    box-shadow: 0 0 2rem rgb(200, 200, 200), 0 0 1rem rgb(13, 13, 13) inset;    
-    border-radius: .25rem;
+    box-shadow: 0 0 2rem rgb(200, 200, 200), 0 0 1rem rgb(13, 13, 13) inset;
 }
 
 .chunk {
@@ -287,4 +294,8 @@ header p {
 
 .slide {
     box-shadow: .15rem .15rem .25rem rgb(13, 13, 13);
+}
+
+a.social {
+    text-decoration: none;
 }
