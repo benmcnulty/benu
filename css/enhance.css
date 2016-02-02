@@ -1,0 +1,30 @@
+body.enhance {
+    background: repeating-linear-gradient(
+        66.7deg,
+        rgb(200, 200, 173), 
+        rgb(136, 136, 109) .25rem
+    );
+}
+
+body.enhance .panel {
+    background-image: radial-gradient(
+        circle at bottom right,
+        rgb(175, 177, 214), 
+        rgb(216, 218, 255)
+    );
+}
+
+.chunk {
+    background-image: radial-gradient(
+        circle at top left,
+        rgba(255, 255, 248, 200), 
+        rgba(249, 249, 242, 200)
+    );
+    
+    box-shadow: .25rem .25rem .5rem rgb(140, 140, 140),
+        .25rem .25rem 1rem rgb(255, 255, 255) inset;
+    
+    border-radius: .25rem;
+  /*  border-color: rgb(227, 79, 38); html orange */
+    
+}
